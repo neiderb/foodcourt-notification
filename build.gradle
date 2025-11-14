@@ -71,6 +71,7 @@ jacocoTestReport {
                     'com/foodcourt/notification/application/**',
                     '**/*$*.*',
                     '**/enums/**',
+                    '**/*Exception.class',
             ])
         }))
     }

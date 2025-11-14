@@ -10,8 +10,7 @@ spring:
 
 adapters:
   sns:
-    region: ${AWS_REGION}
-    endpoint: ${AWS_SNS_URL}
+    region: ${AWS_SNS_REGION}
 
 logging:
   level:
